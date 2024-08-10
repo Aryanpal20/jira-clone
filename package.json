@@ -1,0 +1,20 @@
+{
+  "name": "jira-clone",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Moez Bouaggad",
+    "email": "mrbouaggadmoez@gmail.com",
+    "url": "https://github.com/datlyfe"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build  --include-dependencies",
+    "dev": "turbo run dev --include-dependencies",
+    "preinstall": "only-allow pnpm"
+  },
+  "devDependencies": {
+    "only-allow": "^1.1.1",
+    "turbo": "^1.9.3"
+  }
+}
